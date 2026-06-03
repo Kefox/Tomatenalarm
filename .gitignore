@@ -1,0 +1,5 @@
+.env
+*.tar
+Dockerfile
+/obj
+/bin
