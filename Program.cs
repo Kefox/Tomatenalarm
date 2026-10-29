@@ -77,7 +77,6 @@ while (true)
                     
                     Console.WriteLine($"Soil Temperature: {soilTemperature}, Soil Humidity: {soilHumidityStr}");
 
-                    // Hier prüfen wir die Werte DIREKT in der Schleife, solange die Variablen existieren
                     if (int.TryParse(soilHumidityStr, out int soilHumidityValue))
                     {
                         if (soilHumidityValue < 40)
